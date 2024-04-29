@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div id="board" class="board">
+            <div class="row">
+                <div class="cell" onclick="cellClicked(0, 0)"></div>
+                <div class="cell" onclick="cellClicked(0, 1)"></div>
+                <div class="cell" onclick="cellClicked(0, 2)"></div>
+            </div>
+            <div class="row">
+                <div class="cell" onclick="cellClicked(1, 0)"></div>
+                <div class="cell" onclick="cellClicked(1, 1)"></div>
+                <div class="cell" onclick="cellClicked(1, 2)"></div>
+            </div>
+            <div class="row">
+                <div class="cell" onclick="cellClicked(2, 0)"></div>
+                <div class="cell" onclick="cellClicked(2, 1)"></div>
+                <div class="cell" onclick="cellClicked(2, 2)"></div>
+            </div>
+        </div>
+        <div id="message" class="message"></div>
+        <button onclick="restartGame()">Restart Game</button>
+        <div><h3>Created by:</h3></div>
+        <div><h3 id="name">Ayan Srivastava (221b112)</h3></div>
+        <div>
+            <h3>Aditi Singh (221b026) </h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
